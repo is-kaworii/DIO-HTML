@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <h1>Tags HTML</h1>
+  
+  <h2>Índice</h2>
+  <ul>
+    <li><a href="#h1">&lt;h1&gt;</a></li>
+    <li><a href="#p">&lt;p&gt;</a></li>
+    <li><a href="#mark">&lt;mark&gt;</a></li>
+    <li><a href="#small">&lt;small&gt;</a></li>
+    <li><a href="#i">&lt;i&gt;</a></li>
+    <li><a href="#u">&lt;u&gt;</a></li>
+    <li><a href="#strong">&lt;strong&gt;</a></li>
+    <li><a href="#ol">&lt;ol&gt;</a></li>
+    <li><a href="#ul">&lt;ul&gt;</a></li>
+    <li><a href="#li">&lt;li&gt;</a></li>
+    <li><a href="#a">&lt;a&gt;</a></li>
+    <li><a href="#hr">&lt;hr&gt;</a></li>
+    <li><a href="#sub">&lt;sub&gt;</a></li>
+    <li><a href="#sup">&lt;sup&gt;</a></li>
+    <li><a href="#blockquote">&lt;blockquote&gt;</a></li>
+  </ul>
+
+  <hr>
+
+  <h2 id="h1">&lt;h1&gt; até &lt;h6&gt; Headings</h2>
+  <p>&lt;h1&gt; até &lt;h6&gt; são tags utilizadas para definir títulos Headings (cabeçalhos).</p>
+  <p>Sendo &lt;h1&gt; com maior importancia e &lt;h6&gt; com menor importância semântica.</p>
+  <p>Geralmente é utilizado apenas uma &lt;h1&gt; por página, para representar o título principal da página toda.</p>
+
+  <h2 id="p">&lt;p&gt; Paragraph</h2>
+  <p>A tag &lt;p&gt; define um parágrafo.</p>
+
+  <h2 id="mark">&lt;mark&gt; Mark </h2>
+  <p>A tag &lt;mark&gt; define textos para serem marcados ou destacados.</p>
+
+  <h2 id="small">&lt;small&gt; Small </h2>
+  <p>A tag &lt;small&gt; define um texto melhor (como copyright e outros side-comments).</p>
+
+  <h2 id="i">&lt;i&gt; Itallic </h2>
+  <p> A tag &lt;i&gt; define parte do texto com um intensão diferente. O conteúdo geralmente fica formatado em itálico.
+  </p>
+  <p> A tag &lt;i&gt; geralmente é utilizado para indicar um termo, uma frase em outro idioma, um pensamento, um nome
+    extrangeiro, etc.</p>
+  <p> Apenas use &lt;i&gt; quando não à um elemento semantico mais apropriado, como:</p>
+
+  <ul>
+    <li>&lt;em&gt; (enfase no texto)</li>
+    <li>&lt;strong&gt; (texto importante)</li>
+    <li>&lt;mark&gt; (marcar ou destacar texto)</li>
+    <li>&lt;cite&gt; (o título de um trabalho)</li>
+    <li>&lt;dfn&gt; (uma definição de um termo)</li>
+  </ul>
+
+  <h2 id="u">&lt;u&gt; Underline </h2>
+  <p>A tag &lt;u&gt; representa um texto é articulado e tem um estilo diferente do texto normal, como palavras com erros
+    ortográficos. O conteúdo interno é normalmente exibido com um sublinhado.</p>
+  <p>Dica: Evite usar o elemento &lt;u&gt; onde ele pode ser confundido com um hiperlink!</p>
+
+  <h2 id="strong">&lt;strong&gt; Strong </h2>
+  <p>A tag &lt;strong&gt; é usada para definir texto com forte importância. O conteúdo dentro é normalmente exibido em
+    negrito.</p>
+  <p>Dica: Use a tag &lt;b&gt; para especificar texto em negrito sem nenhuma importância extra!</p>
+
+  <h2 id="ol">&lt;ol&gt; ordered list </h2>
+  <p>A tag &lt;ol&gt; define uma lista ordenada. Uma lista ordenada pode ser numérica ou alfabética.</p>
+  <p>A tag <a href="#li">&lt;li&gt</a>; é usada para definir cada item da lista.</p>
+  <p>Dica: Use CSS para estilizar listas.</p>
+  <p>Dica: Para listas não ordenadas, use a tag <a href="#ul">&lt;ul&gt;</a>.</p>
+
+  <h2 id="ul">&lt;ul&gt; unordered list </h2>
+  <p>A tag &lt;ul&gt; define uma lista não ordenada (com marcadores).</p>
+  <p>Use a tag &lt;ul&gt; junto com a tag <a href="#li">&lt;li&gt</a>; para criar listas não ordenadas.</p>
+  <p>Dica: Use CSS para estilizar listas.</p>
+  <p>Dica: Para listas ordenadas, use a tag <a href="#ol">&lt;ol&gt;</a>.</p>
+
+  <h2 id="li">&lt;li&gt; list item </h2>
+  <p>A tag &lt;li&gt; define um item de lista.</p>
+  <p>A tag &lt;li&gt; é usada dentro de listas ordenadas (<a href="#ol">&lt;ol&gt;</a>), listas não ordenadas (<a href="#ul">&lt;ul&gt;</a>) e em listas de
+    menu (&lt;menu&gt;).</p>
+  <p>Em <a href="#ul">&lt;ul&gt;</a> e &lt;menu&gt;, os itens de lista geralmente serão exibidos com marcadores.</p>
+  <p>Em <a href="#ol">&lt;ol&gt;</a>, os itens de lista geralmente serão exibidos com números ou letras.</p>
+  <p>Dica: use CSS para estilizar listas.</p>
+
+  <h2 id="a">&lt;a&gt; ancor point </h2>
+  <p>A tag &lt;a&gt; define um hiperlink, que é usado para vincular de uma página para outra.</p>
+  <p>O atributo mais importante do elemento &lt;a&gt; é o atributo href, que indica o destino do link.</p>
+  <p>Por padrão, os links aparecerão da seguinte forma em todos os navegadores:</p>
+  <ul>
+    <li>Um link não visitado é sublinhado e azul</li>
+    <li>Um link visitado é sublinhado e roxo</li>
+    <li>Um link ativo é sublinhado e vermelho</li>
+  </ul>
+
+  <h2 id="hr">&lt;hr&gt;</h2>
+  <p>A tag &lt;hr&gt; define uma quebra temática em uma página HTML (por exemplo, uma mudança de tópico).</p>
+  <p>O elemento &lt;hr&gt; é mais frequentemente exibido como uma régua horizontal que é usada para separar conteúdo (ou
+    definir uma mudança) em uma página HTML. </p>
+
+  <h2 id="sub">&lt;sub&gt; Sub </h2>
+  <p>A tag &lt;sub&gt; define texto subscrito. O texto subscrito aparece meio caractere abaixo da linha normal e às
+    vezes é renderizado em uma fonte menor. O texto subscrito pode ser usado para fórmulas químicas, como H2O.</p>
+  <p>Dica: Use a tag <a href="#sup">&lt;sup&gt;</a> para definir texto sobrescrito.</p>
+
+  <h2 id="sup">&lt;sup&gt; Sup </h2>
+  <p>A tag &lt;sup&gt; define texto sobrescrito. O texto sobrescrito aparece meio caractere acima da linha normal e às
+    vezes é renderizado em uma fonte menor. O texto sobrescrito pode ser usado para notas de rodapé, como WWW.</p>
+  <p>Dica: Use a tag <a href="#sub">&lt;sub&gt;</a> para definir texto subscrito.</p>
+
+  <h2 id="blockquote">&lt;blockquote&gt; Block Quote </h2>
+  <p>A tag &lt;blockquote&gt; especifica uma seção que é citada de outra fonte.</p>
+  <p>Os navegadores geralmente recuam elementos &lt;blockquote&gt; (veja o exemplo abaixo para ver como remover o
+    recuo). </p>
+  <p>Dica: Use &lt;q&gt; para citações inline (curtas).</p>
+</body>
+
+</html>
